@@ -33,7 +33,7 @@ if (!require("purrr")) {
 }
 
 ##download the datafile in the working directory, with the name data.zip
-#download.file(url, file.path(file_path, "data.zip"))
+download.file(url, file.path(file_path, "data.zip"))
 new_path <- file.path(file_path, "UCI HAR Dataset")
 
 ##read subject data
